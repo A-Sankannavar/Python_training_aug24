@@ -7,4 +7,4 @@
 '''
 size = int(input("Enter the size of the triangle: "))
 for i in range(size):
-    print(' '*(size-i)+'*'*(i+1)+'*'*(i))
+    print(' '*(size-i-1)+'*'*(i+1)+'*'*(i))
