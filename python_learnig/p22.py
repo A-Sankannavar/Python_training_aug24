@@ -1,6 +1,6 @@
 #Program tp print X shape of N lines
 
-size = int(input("Enter the size of the square: "))
+size = int(input("Enter the size of the X: "))
 for i in range(1,size+1):
     for j in range(1,size+1):
         if(i==j or j==(size-i+1)):
